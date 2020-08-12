@@ -22098,33 +22098,32 @@ p {
 //////////////////////////// */
 .hero-area {
   background-size: cover;
-  padding: 145px 0;
+  padding: 100px 0;
   position: relative;
 }
 
 @media (min-width: 480px) {
   .hero-area {
-    margin-bottom: 163px;
+    margin-bottom: 0px;
   }
 }
 
 @media (min-width: 576px) {
   .hero-area {
-    padding: 145px 0 30px;
+    padding: 100px 0 30px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-area {
-    margin-bottom: 95px;
-    padding: 165px 0;
+    margin-bottom: 0px;
+    padding: 100px 0;
   }
 }
 
 @media (min-width: 992px) {
   .hero-area {
-    margin-bottom: 238px;
-    padding: 165px 0;
+    padding: 100px 0;
   }
 }
 
@@ -22140,6 +22139,7 @@ p {
 }
 
 .hero-content {
+  padding-top: 25px;
   color: #fff;
   text-align: center;
   display: -webkit-box;
@@ -22155,6 +22155,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          
 }
 
 .hero-content .title {
